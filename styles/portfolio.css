@@ -136,3 +136,28 @@ main {
     color: #474747;
     margin: 0;
 }
+
+/* Skills section style */
+
+.what-i-do {
+    margin-bottom: 50px;
+}
+
+#what-i-do-description {
+    padding: 30px 130px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 18%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+/* 5-5 Use Flexbox For About Info And Start What I Am Section */
