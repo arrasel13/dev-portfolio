@@ -230,3 +230,29 @@ main {
 .download-cv {
     text-align: center;
 }
+
+/* Footer section style */
+
+footer {
+    margin-top: 70px 0 0;
+    padding: 130px 0;
+    display: flex;
+    gap: 110px;
+}
+
+footer .section-title,
+footer .section-description {
+    text-align: left;
+}
+
+.social-links {
+    margin-top: 30px 0 0;
+    display: flex;
+    gap: 24px;
+
+}
+
+.social-links a {
+    text-decoration: none;
+    cursor: pointer;
+}
