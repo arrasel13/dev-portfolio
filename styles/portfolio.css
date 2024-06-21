@@ -234,14 +234,20 @@ main {
 /* Footer section style */
 
 footer {
-    margin-top: 70px 0 0;
+    margin: 70px 0 0;
     padding: 130px 0;
-    display: flex;
-    gap: 110px;
+    background-color: #FFF8F3;
 }
 
-footer .section-title,
-footer .section-description {
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 130px;
+}
+
+footer .footer-container .section-title,
+footer .footer-container .section-description {
     text-align: left;
 }
 
@@ -256,3 +262,26 @@ footer .section-description {
     text-decoration: none;
     cursor: pointer;
 }
+
+.footer-column {
+    width: 50%;
+}
+
+.contact {
+    margin-top: 28px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
+}
+
